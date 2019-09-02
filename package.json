@@ -1,0 +1,26 @@
+{
+  "name": "monitor-socket-io-framerate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alankillip/monitor-socket-io-framerate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alankillip/monitor-socket-io-framerate/issues"
+  },
+  "homepage": "https://github.com/alankillip/monitor-socket-io-framerate#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
