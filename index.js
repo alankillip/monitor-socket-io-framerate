@@ -23,7 +23,7 @@ socket.on('game-update', function() {
   const now = Date.now();
   const timeSinceLastRefresh = now - lastTime
   if (Math.abs(timeSinceLastRefresh - target) >  threshold) {
-    console.log(timeSinceLastRefresh);
+    console.log(new Date().toString(), timeSinceLastRefresh);
     anomalies ++;
   }
   if (now > (lastSecond + 1000)) {
