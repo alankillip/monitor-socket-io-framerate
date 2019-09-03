@@ -8,7 +8,7 @@ const connectionString = 'https://intercity-pong.herokuapp.com/';
 
 socket = io.connect(connectionString, { query: {city: null, role: 'monitor'}, transport: 'socket' });
 
-let threshold = 5;
+let threshold = 10;
 let target = 30;
 let lastTime = Date.now();
 let lastSecond = Date.now();
